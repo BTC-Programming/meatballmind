@@ -1,0 +1,154 @@
+html {
+    background: center -300px  url("table.jpg") no-repeat;
+	background-size:cover;
+}
+
+#console{
+	border: 2px solid black;
+	background-color:white;
+	background-size:cover;
+    padding: 10px;
+    border-radius: 25px;
+    width: 500px;
+    margin:5px auto;
+	margin-top:150px;
+}
+
+#board p, #board h1, #board ol {
+	background-color:white;
+}
+
+	
+#board, #makeGuess {
+    border-radius: 5px;
+    font-size: 25px;
+    background-image:url("spaghetti.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+    padding:10px;
+	margin:20px auto;
+    width: 87%;
+    overflow: auto;
+	text-align:center;
+}
+
+#colors {
+	padding-left:0px;
+	margin-left:-10px;
+}
+
+#colors li {
+	list-style:none;
+	display:inline-block;
+	text-indent:none;
+}
+
+select {
+    width: 40px;
+	height:40px;
+    font-size: 25px;
+    background-image: url("meatball.gif");
+    padding-top: 0px;
+	margin:0 auto;
+	border-radius:50px;
+}
+
+select:hover {
+	border:1px solid green;
+}
+
+button {
+    height:100px;
+	width:100px;
+	border:none;
+	margin-left:-20px;
+    background:top center url("button-red.png") no-repeat;
+}
+
+select:focus, button:focus {
+	border:0px;
+	outline:0;
+}
+
+
+/* Graphic Mastermind Model CSS */
+
+.m { background-color:magenta; background-image:none; }
+.g { background-color:green; background-image:none; }
+.c { background-color:cyan; background-image:none; }
+.r { background-color:red; background-image:none; }
+.w { background-color:white; background-image:none; }
+.b { background-color:black;color:white; background-image:none;}
+.y { background-color:yellow; background-image:none; }
+
+#turns {
+	width:315px;
+	margin:20px auto;
+	padding-left:20px;
+	text-align:left;
+}
+
+#turns li {
+    list-style:none;
+    list-style-type:none;
+    list-style-image:none;
+	text-indent:none;
+}
+
+.turn {
+    margin-left:-40px;
+    clear:both;
+    padding-top:15px;
+}
+
+
+.turn li {
+  display:inline-block;
+  margin-left: 5px;
+  width: 30px;
+  height: 28px;
+  border-radius: 20px;
+  border: 2px solid #999;
+}
+
+.turn :nth-child(4) {
+   margin-right:20px;
+}
+
+select:hover {
+	border:1px solid green;
+}
+
+.clicker {
+	color:blue;
+	font-style:underline;
+}
+
+.clicker:hover {
+	color:red;
+}
+
+#colors.hide {
+	display:none;
+}
+
+button {
+    height:80px;
+	width:80px;
+	margin-left:-20px;
+	border-radius:50%;
+	border:2px solid gray;
+    background: -4px -5px black url("button-red.png") no-repeat;
+}
+button:hover {
+	border:2px solid yellow;
+}
+
+.fourok {
+    background-image:url("button.png");
+}
+
+button:focus, select:focus {
+	outline:0;
+}
+
